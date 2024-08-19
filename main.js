@@ -41,3 +41,8 @@ const perguntas = [
         ]
     },
 ];
+
+function mostraPergunta (){  
+    perguntaAtual = perguntaAtual.enunciado;
+    CaixaPerguntas.textContent = perguntaAtual.ENUNCIADO;
+}
