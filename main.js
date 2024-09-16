@@ -6,38 +6,36 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
-            "Isso é assustador!",
-            "Isso é maravilhoso!"
+        enunciado: " Alice encontrou uma caixa misteriosa no chão: [
+            " Abir a caixa e ver o que há dentro",
+            " DEixar a caixa e seguir em frente"
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
-        alternativas: [
-            "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-            "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+        enunciado: " Alice abriu a caixa e, dentro dela, encontrou uma mapa com um X marcado um ponto distante : [
+            "Seguir o mapa e descobrir o que o X esconde",
+            "Guardar o mapa e voltar pra casa evitando possíveis perigos ",
         ]
     },
     {
-        pergunta: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        pergunta: "Alice escolheu seguir o mapa, intrigada pelo o mistério. Após horas caminhando, ela chegou a uma caverna escura onde mandava uma fraca luz",
         alternativas: [
-            "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-            "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores."
+            "Entrar na caverna e descobrir a origem da luz",
+            "Ficar no lado de fora pensando em uma estratégia mais segura "
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Com o coração acelerado ela decie entrar e encontra uma baú cum alguns cristais brilhantes, ao se aproximar leu no lado de fora do baú uma carta escrito que para abrir o baú deve sacrificae algo que precioso",
         alternativas: [
-            "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-            "Criar uma imagem utilizando um gerador de imagem de IA."
+            "Sacrificar algo precioso para abrir o baú",
+            "SAir da caverna e desistir do baú"
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: "Alice cheia de curiosidade, respirou fundo e tmou uma decisão",
         alternativas: [
-           "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-            "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial."
+           "Ela decide sacrificar um pequeno pingente que sua vó lhe deu",
+            "Alice decide sair da caverna, abandonando o baú e levando consigo a lição de que nem todo tesouro vale o risco"
         ]
     },
 ];
@@ -58,4 +56,4 @@ function mostraAlternativas() {
     }
 }
 
-mostraPergunta();
+mostraPergunta(); 
